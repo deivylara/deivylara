@@ -1,0 +1,30 @@
+
+.nav-menu{
+    display: inline-block;
+    background: #00909e;
+    color: #dae1e7;
+    padding: 9px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: larger;
+}
+.nav-menu:hover{
+    color: #f6fbff;
+    text-decoration: underline;
+
+}
+.nav-header{
+    background: #00909e;
+    display:flex;
+    justify-content: flex-end;
+    border: 1.5px solid #f6fbff;
+    border-radius: 20px;
+    padding: 9px 30px;
+}
+
+
+body {
+    background-color: rgb(20, 20, 20);
+    color: #dae1e7;
+  }
+  
