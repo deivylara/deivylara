@@ -12,9 +12,10 @@
  <body>
     <header>
         <nav class="nav-header">
-            <a href="#" class="nav-menu">Protafolio</a>
-            <a href="#" class="nav-menu">Experiencia</a>
-            <a href="#" class="nav-menu">Contactame</a>
+            <button class="boton-menu" onclick="accion()">Men&uacute;</button>
+            <a href="#" class="nav-menu ocultamenu">Protafolio</a>
+            <a href="#" class="nav-menu ocultamenu">Experiencia</a>
+            <a href="#" class="nav-menu ocultamenu">Contactame</a>
         </nav>
     </header>
     
@@ -30,6 +31,16 @@
     <section>seccion contacto</section>
 
     <footer>footer</footer>
+
+    <script>
+        function accion(){
+            console.log('boton menu funciona');
+            var ancla =document.getElementsByClassName('nav-menu');
+            for(var i = 0;  i < ancla.length; i++){
+                ancla[i].classList.toggle('ocultamenu');
+            }
+        }
+    </script>
 
  </body>
 </html>
