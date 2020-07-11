@@ -41,9 +41,8 @@ body {
     font-family: 'Averia Serif Libre', cursive;
   }
 h1 {
-    font-family: 'Bangers', cursive;
-    font-size: 40px;
-    font-weight: 500;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
 }
 @media (max-width: 700px) {
    .nav-header{
