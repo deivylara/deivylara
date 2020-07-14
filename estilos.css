@@ -11,7 +11,7 @@
 .nav-menu:hover{
     color: #f6fbff;
     text-decoration: underline;
-
+ 
 }
 
 .boton-menu:hover{
@@ -34,21 +34,23 @@
     display: none;
 }
 /* #FIN DE ESTILOS DE CABECERA */
-#Inicio{
+body {
+    background-color: rgb(20, 20, 20);
+    color: #dae1e7;
+    font-family: 'Averia Serif Libre', cursive;
+  }
+
+  #Inicio{
     height: 500px;
     background-image: url('https://i.imgur.com/3LqBExT.png');
     background-color:#27496d ;
     background-size: 800px  500px;
     background-repeat: no-repeat;
     background-position-x: right;
+    border-radius: 20px;
+    margin-top: 10px;
+ }
 
-
-}
-body {
-    background-color: rgb(20, 20, 20);
-    color: #dae1e7;
-    font-family: 'Averia Serif Libre', cursive;
-  }
 h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 50px;
@@ -59,22 +61,33 @@ h1 strong{
 h2{
     font-size: 26px;
 }
+.Proyecto1{
+   border-color:#dae1e7 ;
+   border-width: 1.5px;
+   border-style: solid;
+   border-radius: 20px;
+   margin-top: 10px;
+}
 
 @media (max-width: 700px) {
    .nav-header{
     flex-direction: column;
-    background: rgb(20, 20, 20);
+    background: none;
     border: 1.5px solid  rgb(20, 20, 20);
+   
    } 
    .nav-menu{
        margin: 10px 0;
+       
+      
    }
    .boton-menu{
        display: inline-block;
-
+        
    }
    .ocultamenu{
        display: none;
+    
    }
    .nav-menu:hover{
        text-decoration: none; 
@@ -84,6 +97,7 @@ h2{
     height: 545px;
     background-position-y: bottom;
     background-size: 400px;
+   
    }
    h1{
     font-size: 30px;
@@ -91,8 +105,6 @@ h2{
    h2{
     font-size: 20px;
    }
-   .img-devops{
-     width: 370px;
-   }
+   
 }
 
